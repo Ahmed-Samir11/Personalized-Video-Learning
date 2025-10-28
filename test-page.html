@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Video Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      margin-top: 0;
+    }
+    video {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      background: #000;
+      display: block;
+      margin: 20px 0;
+    }
+    .info {
+      background: #e3f2fd;
+      padding: 15px;
+      border-radius: 4px;
+      margin: 20px 0;
+    }
+    .info h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Personalized Video Learning - Test Page</h1>
+    
+    <div class="info">
+      <h3>Testing Instructions:</h3>
+      <ol>
+        <li>Make sure the extension is loaded in Chrome</li>
+        <li>Open the browser console (F12) to see logs</li>
+        <li>Look for messages starting with [Content], [UIManager], etc.</li>
+        <li>The assistant panel should appear on the right side of the page</li>
+        <li>Try clicking the feature buttons in the panel</li>
+      </ol>
+    </div>
+
+    <h2>Sample Video</h2>
+    <video controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="info">
+      <h3>Expected Behavior:</h3>
+      <ul>
+        <li>A floating panel should appear on the right side</li>
+        <li>The panel should have buttons for highlighting objects, simplifying vocabulary, etc.</li>
+        <li>Clicking buttons should trigger console logs showing the actions</li>
+        <li>If nothing appears, check the console for error messages</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    // Log when video is ready
+    const video = document.querySelector('video');
+    video.addEventListener('loadedmetadata', () => {
+      console.log('[Test Page] Video loaded and ready');
+    });
+  </script>
+</body>
+</html>

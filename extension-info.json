@@ -1,0 +1,37 @@
+{
+  "name": "Personalized Video Learning Assistant",
+  "short_name": "PVL Assistant",
+  "description": "AI-powered learning assistant that reduces cognitive load in procedural video learning",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "homepage_url": "https://github.com/yourusername/Personalized-Video-Learning",
+  "features": [
+    "Object highlighting in videos",
+    "Real-time vocabulary simplification", 
+    "Step-by-step interactive checklists",
+    "Automatic confusion detection",
+    "Focus mode for distraction reduction",
+    "Customizable learning preferences"
+  ],
+  "target_users": [
+    "Learners with intellectual disabilities",
+    "Learners with ADHD",
+    "Learners with dyslexia",
+    "Anyone who wants simplified video learning"
+  ],
+  "supported_platforms": [
+    "YouTube",
+    "Vimeo",
+    "Any website with HTML5 video"
+  ],
+  "ai_providers": [
+    "OpenAI (GPT-4 Vision, GPT-4)",
+    "Anthropic (Claude)",
+    "Google AI"
+  ],
+  "privacy": {
+    "data_collection": "None - all data stored locally",
+    "api_usage": "Only when user explicitly triggers AI features",
+    "storage": "Chrome sync storage (encrypted)"
+  }
+}
