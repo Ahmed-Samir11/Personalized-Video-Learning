@@ -2,7 +2,7 @@
 
 > An AI-powered browser extension that reduces cognitive load in procedural video learning, making educational content accessible to learners with cognitive and learning disabilities.
 
-## 🎯 Mission
+## Mission
 
 To bridge the **Cognitive Accessibility Gap** by providing real-time, personalized learning support that restructures and simplifies video content, reducing extraneous cognitive load for learners with:
 
@@ -11,25 +11,25 @@ To bridge the **Cognitive Accessibility Gap** by providing real-time, personaliz
 - Dyslexia
 - Other cognitive and learning differences
 
-## ✨ Key Features
+## Key Features
 
-### 🎨 Visual Support
+### Visual Support
 - **Object Highlighting**: Automatically identifies and highlights tools/objects mentioned in videos
 - **Focus Mode**: Dims distractions around the video player
 
-### 📝 Content Simplification
+### Content Simplification
 - **Vocabulary Helper**: Real-time simplification of complex jargon
 - **Adaptive Language**: Adjustable reading levels (elementary, middle, high school)
 
-### ✅ Learning Scaffolds
+### Learning Scaffolds
 - **Interactive Checklists**: AI-generated step-by-step guides with timestamps
 - **Progress Tracking**: Visual completion indicators
 
-### 🧠 Intelligent Assistance
+### Intelligent Assistance
 - **Confusion Detection**: Monitors user behavior (rewinds, pauses) to offer proactive help
 - **Adaptive Pacing**: Optional auto-pause before complex steps
 
-## 🏗️ Architecture
+## Architecture
 
 Built on **Chrome Extension Manifest V3** with strict separation of concerns:
 
@@ -59,7 +59,7 @@ Built on **Chrome Extension Manifest V3** with strict separation of concerns:
 - **`react-app/`**: React-based user interface
 - **`popup/`**: Extension settings popup
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -100,21 +100,21 @@ npm run dev
 3. Enter your API key
 4. Select your preferred AI provider
 
-## 📖 Usage
+## Usage
 
 1. **Navigate to any video page** (YouTube, Vimeo, etc.)
 2. **The assistant will appear** on the right side of the page
 3. **Use quick tools:**
-   - 🔍 **Highlight Objects**: Identify tools in the current frame
-   - 📝 **Generate Steps**: Create a checklist from the video
-   - 🎯 **Focus Mode**: Reduce distractions
-   - 💬 **Vocabulary Helper**: Simplify complex text
+   - **Highlight Objects**: Identify tools in the current frame
+   - **Generate Steps**: Create a checklist from the video
+   - **Focus Mode**: Reduce distractions
+   - **Vocabulary Helper**: Simplify complex text
 
 4. **Automatic assistance:**
    - If you rewind 3+ times, the system offers help
    - Confusion alerts are gentle and dismissible
 
-## 🎨 UI/UX Principles
+## UI/UX Principles
 
 Our design follows **5 core principles** for cognitive accessibility:
 
@@ -124,7 +124,7 @@ Our design follows **5 core principles** for cognitive accessibility:
 4. **Full User Control** - Toggle everything on/off
 5. **Consistency** - Same location, same behavior
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: React 18, CSS3
 - **Build**: Webpack 5, Babel
@@ -132,7 +132,7 @@ Our design follows **5 core principles** for cognitive accessibility:
 - **AI**: VLM (Vision-Language Models) & LLM integration
 - **Storage**: Chrome Storage API
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Personalized-Video-Learning/
@@ -175,7 +175,7 @@ Personalized-Video-Learning/
 └── package.json
 ```
 
-## 🧪 Development
+## Development
 
 ### Build Commands
 
@@ -192,41 +192,9 @@ npm test           # Run tests (when implemented)
 2. **UI Components**: Create new components in `src/react-app/components/`
 3. **Content Script Features**: Add controllers to `src/content/controllers/`
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
 - **All processing happens locally** when possible
 - **API keys are stored securely** in Chrome's encrypted storage
 - **No user data is collected** or transmitted to our servers
 - **AI API calls** follow each provider's privacy policy
-
-## 🤝 Contributing
-
-We welcome contributions! This project aims to make learning accessible to all.
-
-### Areas for Contribution
-
-- 🎯 Additional AI providers
-- 🌍 Internationalization (i18n)
-- ♿ Accessibility improvements
-- 📱 Mobile browser support
-- 🧪 Testing infrastructure
-
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details
-
-## 🙏 Acknowledgments
-
-This project is inspired by research in:
-- Cognitive Load Theory (Sweller, Chandler, Mayer)
-- Universal Design for Learning (UDL)
-- Cognitive Accessibility in Digital Learning
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/Personalized-Video-Learning/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/Personalized-Video-Learning/discussions)
-
----
-
-**Built with ❤️ for accessible education**
